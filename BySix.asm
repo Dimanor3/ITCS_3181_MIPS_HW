@@ -1,12 +1,13 @@
 # BySix.asm by Bijan Razavi
-# Outputs all numbers divisible by 6 between 0 and user input.
+# Outputs the first N (user inputted integer)
+# numbers that are divisible by 6.
 
 .globl main
 main:
 	li $t0, 0	# Stores user input.
 	li $t1, 1	# i.
 	li $t2, 0	# Loops through all numbers divisible by 6.
-			# between 0 and $t0.
+				# between 0 and $t0.
 	
 	# Asks user for N.
 	li $v0, 4
